@@ -24,7 +24,6 @@ function reorderAsc(arrayDesc) {
 
 }
 
-
 //Ne touche pas au code qui suit, il permet de vérifier si tu as réussi ou non l'exercice !
 function verification() {
     /*

@@ -34,6 +34,10 @@ function reorderDesc(disorganizeArray) {
     return newArray;
 }
 
+function reorderDescBonus(arrayDesc) {
+    return arrayDesc.sort((a, b) => b - a);
+}
+
 /*
     Cette fonction prend en paramètre le tableau d'int que vous avez réorganisé dans l'ordre descendant. Vous devez
     retourner ce tableau avec cette fois-ci les valeurs dans l'ordre ascendant. (du plus petit au plus grand).
@@ -52,6 +56,10 @@ function reorderAsc(arrayDesc) {
         }
     }
     return goodArray;
+}
+
+function reorderAscBonus(arrayDesc) {
+    return arrayDesc.sort();
 }
 
 
