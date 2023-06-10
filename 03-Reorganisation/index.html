@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 03 - Reorganisation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h2>Tu peux ouvrir la console pour avoir plus d'information si tu as des erreurs !</h2>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Function</th>
+                <th scope="col">Etat</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>reorderAsc</td>
+                <td id="ascSuccess" class="text-success" hidden="hidden">Réussi</td>
+                <td id="ascError" class="text-danger">Echec</td>
+            </tr>
+            <tr>
+                <td>reorderDesc</td>
+                <td id="descSuccess" class="text-success col" hidden="hidden">Réussi</td>
+                <td id="descError" class="text-danger col">Echec</td>
+            </tr>
+            </tbody>
+        </table>
+        <button onclick="window.location.reload()" class="btn btn-primary">Actualiser</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
