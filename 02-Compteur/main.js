@@ -16,7 +16,7 @@ function countNbVentesReussites(tableauxVentesBool) {
 
 /*
     Cette fonction prend en paramètre un tableau d'int, ce tableau contient tous les chiffres d'affaires de chaque mois
-    sur 15 mois. Vous devez retourner le nombre de mois ou le chiffre d'affaires a été supérieur à 1200$.
+    sur 15 mois. Vous devez retourner le nombre de mois ou le chiffre d'affaires a été supérieur ou égal à 1200$.
      */
 function countNbChiffreAffaireSupperieurSmic(tableauxChiffresAffaires) {
 

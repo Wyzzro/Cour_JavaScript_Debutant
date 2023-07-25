@@ -27,6 +27,26 @@ function countNbChiffreAffaireSupperieurSmic(tableauxChiffresAffaires) {
     return result;
 }
 
+/*
+    Cette fonction effectue la même tache que la première solution de l'exercice 1, cependant ici, j'utilise les conditions
+    ternaires qui permettre d'effectuer une condition if/else sur une seul ligne !
+     */
+    function countNbVentesReussitesTernaireSolution(tableauxVentesBool) {
+        let result = 0;
+        tableauxVentesBool.forEach(elem => elem ? result++ : result);
+        return result;
+    }
+
+/*
+    Cette fonction effectue la même tache que la première solution de l'exercice 2, cependant ici, j'utilise les conditions
+    ternaires qui permettre d'effectuer une condition if/else sur une seul ligne !
+     */
+    function countNbChiffreAffaireSupperieurSmicTernaireSolution(tableauxChiffresAffaires) {
+        let result = 0;
+        tableauxChiffresAffaires.forEach(elem => elem >= 1200 ? result++ : result);
+        return result;
+    }
+
 
 //Ne touche pas au code qui suit, il permet de vérifier si tu as réussi ou non la fonction !
 function verification() {
